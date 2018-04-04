@@ -2,7 +2,7 @@ package abstract_factory;
 
 import java.util.logging.Logger;
 
-public class Main {
+class Main {
     private static final Logger LOGGER = Logger.getLogger(abstract_factory.Main.class.getName());
     public static void main(String[] args) {
         FastFoodFactory mcDonaldsFactory= FactoryInstansiater.createFactory(FactoryType.MCDONALDS);

@@ -1,5 +1,5 @@
 package abstract_factory;
 
-public enum FactoryType {
+enum FactoryType {
     MCDONALDS,BURGER_KING
 }

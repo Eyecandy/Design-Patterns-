@@ -1,6 +1,6 @@
 package abstract_factory;
 
-public interface  FastFoodFactory {
+interface  FastFoodFactory {
     Burger createBurger();
 
     SoftDrink createSoftDrink();

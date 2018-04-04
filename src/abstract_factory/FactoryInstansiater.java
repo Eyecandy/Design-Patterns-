@@ -1,6 +1,6 @@
 package abstract_factory;
 
-public class FactoryInstansiater {
+class FactoryInstansiater {
 
 
     public static FastFoodFactory createFactory(FactoryType type) {

@@ -1,6 +1,6 @@
 package abstract_factory;
 
-public class BurgerKingBurger implements  Burger {
+class BurgerKingBurger implements  Burger {
 
     private final String NAME= "Burger king's Burger";
 

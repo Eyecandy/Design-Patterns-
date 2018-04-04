@@ -1,6 +1,6 @@
 package abstract_factory;
 
-public interface Burger {
+interface Burger {
     String getName();
 
 

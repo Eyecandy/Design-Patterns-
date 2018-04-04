@@ -1,5 +1,5 @@
 package abstract_factory;
 
-public interface SoftDrink {
+interface SoftDrink {
     String getName();
 }
