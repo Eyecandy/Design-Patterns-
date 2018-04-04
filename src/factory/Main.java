@@ -2,6 +2,12 @@ package factory;
 
 import java.util.logging.Logger;
 
+/**
+ * Factory method is a creational design pattern, it hides object instantiation from user.
+ * Factory takes in information from user and creates a concrete object.
+ * advantage: common interface for creating
+ */
+
 class Main {
     private static final Logger LOGGER = Logger.getLogger(Main.class.getName());
 

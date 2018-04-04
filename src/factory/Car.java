@@ -5,5 +5,6 @@ package factory;
  */
 interface Car {
     String getCarBrand();
+
     CarColor getCarColor();
 }

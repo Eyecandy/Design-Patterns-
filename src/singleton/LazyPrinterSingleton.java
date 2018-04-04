@@ -3,7 +3,7 @@ package singleton;
 /**
  * TODO: Create singleton when needed, i.e getInstance is called.
  * Use case: When there can only be one instance of the class and a single access point.
- * Lazy initialization is done to improve performance, only created when needed.
+ * Lazy initialization is done to improve performance, created on first use.
  */
 class LazyPrinterSingleton {
     private static LazyPrinterSingleton lazyPrinterSingleton = null;
