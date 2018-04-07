@@ -6,6 +6,7 @@ class BurgerKingBurger implements  Burger {
 
     @Override
     public String getName() {
+
         return NAME;
     }
 
