@@ -16,11 +16,8 @@ class Computer {
         this.mathOperation = mathOperation;
     }
 
-
     public int compute(int a,int b) {
         return mathOperation.performOperation(a,b);
     }
-
-
 
 }
