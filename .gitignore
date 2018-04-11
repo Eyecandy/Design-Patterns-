@@ -1,7 +1,5 @@
-# Intellij
 .idea/
 *.iml
 *.iws
-
-# Mac
+.out/
 .DS_Store
