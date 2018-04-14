@@ -1,7 +1,7 @@
 package strategy;
 
 /**
- * Behavioiral design pattern
+ * Behavioral design pattern
  * usu to:
  * avoid exposure of complicated algortihms.
  * many different types of algorithms. code will be cleaner and modular.

@@ -2,6 +2,10 @@ package observer;
 
 import java.util.logging.Logger;
 
+/**
+ * Behavioral Design Pattern
+ */
+
 public class Main {
     private static final Logger LOGGER = Logger.getLogger(observer.Main.class.getName());
     public static void main(String[] args) {

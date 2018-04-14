@@ -3,6 +3,7 @@ package builder;
 import java.util.logging.Logger;
 
 /**
+ * Creational Design Pattern
  * Builder Pattern: Separate the construction of a complex object from its representation
  * so that the same construction process can create different representations.
  *

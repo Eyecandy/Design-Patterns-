@@ -2,6 +2,10 @@ package abstract_factory;
 
 import java.util.logging.Logger;
 
+/**
+ * Creational Design Pattern
+ */
+
 class Main {
     private static final Logger LOGGER = Logger.getLogger(abstract_factory.Main.class.getName());
     public static void main(String[] args) {
@@ -14,9 +18,6 @@ class Main {
         Burger burgerKingBurger = burgerKingFactory.createBurger();
         SoftDrink burgerKingSoftDrink = burgerKingFactory.createSoftDrink();
         LOGGER.info("created a "+ burgerKingBurger.getName() + " and a "+ burgerKingSoftDrink.getName());
-
-
-
 
 
     }
