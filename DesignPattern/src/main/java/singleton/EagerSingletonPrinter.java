@@ -6,10 +6,11 @@ package singleton;
  */
 class EagerSingletonPrinter {
 
+    private EagerSingletonPrinter() {}
+
     private static final EagerSingletonPrinter instance = new EagerSingletonPrinter();
 
-    private EagerSingletonPrinter() {
-    }
+
 
     public static EagerSingletonPrinter getInstance() {
         return instance;

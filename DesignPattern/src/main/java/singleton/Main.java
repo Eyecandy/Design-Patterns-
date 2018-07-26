@@ -18,6 +18,8 @@ class Main {
          */
         LazyPrinterSingleton lazyPrinterSingleton = LazyPrinterSingleton.getInstance();
         System.out.println(lazyPrinterSingleton.displayMessage());
+
+
     }
 
 }

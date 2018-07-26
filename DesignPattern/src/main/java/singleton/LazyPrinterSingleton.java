@@ -8,13 +8,11 @@ package singleton;
 class LazyPrinterSingleton {
     private static LazyPrinterSingleton lazyPrinterSingleton = null;
 
-    private LazyPrinterSingleton() {
-    }
+    private LazyPrinterSingleton() {}
 
     public static LazyPrinterSingleton getInstance() {
         if (lazyPrinterSingleton == null) {
             lazyPrinterSingleton = new LazyPrinterSingleton();
-            return lazyPrinterSingleton;
         }
         return lazyPrinterSingleton;
     }
