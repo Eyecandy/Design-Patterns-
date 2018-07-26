@@ -1,20 +1,24 @@
 package singleton;
 
-public class ThreadSafeSingleton  {
+import java.util.concurrent.Callable;
+
+public class ThreadSafeSingleton implements Callable<ThreadSafeSingleton> {
     private static ThreadSafeSingleton threadSafeSingleton = null;
 
     private ThreadSafeSingleton() {}
 
-    public static ThreadSafeSingleton getInstance() {
+    public static synchronized ThreadSafeSingleton getInstance() {
 
-        synchronized (threadSafeSingleton) {
-            if (threadSafeSingleton == null) {
-                threadSafeSingleton = new ThreadSafeSingleton();
-            }
-            return threadSafeSingleton;
+        if (threadSafeSingleton == null) {
+            threadSafeSingleton = new ThreadSafeSingleton();
         }
+        return threadSafeSingleton;
+
     }
 
 
-
+    @Override
+    public ThreadSafeSingleton call() throws Exception {
+        return getInstance();
+    }
 }
